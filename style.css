@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&family=Mada:wght@500&family=ZCOOL+QingKe+HuangYou&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo&family=Mada:wght@500&family=ZCOOL+QingKe+HuangYou&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #0a0c1b;
+    font-family: 'Cairo', sans-serif;
+}
+
+
+.container {
+    background-color: #1c1938;
+    display: flex;
+    width: 57%;
+    border-radius: 8px;
+    box-shadow: 17px 17px 17px 13px black;
+    overflow: hidden;
+    
+}
+
+
+.container .leftbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 44px;
+}
+
+.container .leftbox h1 {
+    color: white;
+    font-size: 45px;
+}
+
+
+
+.container .leftbox h1 span {
+    color: #b05bdc;
+}
+.numbers {
+    font-family: 'Cairo', sans-serif;
+
+}
+
+.container .leftbox  .text {
+    color: #f0f8ff85;
+}
+
+
+.container .leftbox .numbers {
+    display: flex;
+    margin-top: auto;
+    font-size: xx-large;
+    color: aliceblue;
+}
+
+
+.numbers .moveleft{
+    padding-right: 28px;
+}
+
+
+
+ .numbers .moveright {
+    padding-left: 37px;
+}
+.opacitybelownumber{
+    font-size: 12px;
+    color: #f0f8ff78;
+    
+}
+
+.numbers strong {
+    font-size: 33px;
+
+}
+
+.rightbox {
+    width: 100%;
+}
+
+.rightbox img {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    
+}
+
+.rightbox .filter {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background: hsla(277, 64%, 61%, 0.531);
+    z-index: 2;
+}
+
+@media screen and (width: 600px) {
+    .container {
+        background-color: #1c1938;
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        border-radius: 8px;
+        box-shadow: 17px 17px 17px 13px black;
+        margin-bottom: 40px;
+        overflow: hidden;
+        
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+    .container {
+        background-color: #1c1938;
+        display: flex;
+        flex-direction: column;
+        width: 700px;
+        border-radius: 8px;
+        box-shadow: 17px 17px 17px 13px black;
+        overflow: hidden;
+        
+    }
+    .container .leftbox {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 206px;
+        margin-right: 107px;
+    }
+}
